@@ -1,0 +1,85 @@
+div{
+	background-color: rgba(255,0,0,0.5) ;
+	width: 300px;
+	margin:20px;
+	
+	height: 520px;
+	float: left;
+}
+div:nth-child(2)
+{
+	background-color: rgb(0,200,200);
+}
+div:nth-child(3)
+{
+	background-color: rgba(255,255,0,0.5);
+}
+div:nth-child(5)
+{
+	background-color: rgba(255,255,5,0.2);
+}
+	tr:nth-child(2n)
+	{
+		background-color: #283593;
+	}
+	tr:nth-child(2n-1)
+	{
+		background-color:#FDD835 ;
+	}
+#ul1
+{
+	background-color: greenyellow;
+	font-size: medium;
+}#ol1
+{
+	background-color:indianred;
+	font-size: small;
+}
+th,div
+{
+	border: double;
+	border-color: rgba(0,0,150,0.4);
+	border-style: outset;
+}
+span {
+	font-size: medium;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	background-color: cyan;
+	border: 3px solid;
+	
+	
+}
+ul{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+ul li{
+	width: 100px;
+	height: 40px;
+	margin-top: 3px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+}
+li:first-child
+{
+	background-color: #f44336;
+	color: white;
+}
+li:hover
+{
+	background-color: #f44336;
+	color: white;
+	cursor: pointer;
+	transition:background-color 0.5s;
+}
+a:focus li
+{
+	background-color:#3D5AFE ;
+}

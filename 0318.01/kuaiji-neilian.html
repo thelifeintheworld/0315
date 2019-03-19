@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>块级内联</title>
+		<style>
+			div{
+				width: 300px;
+				height: 260px;
+				background-color: gold;
+				display: inline-block;
+			};
+			div:nth-child(2);
+			{
+				background-color: #FFD700;
+				border-color: green;
+				
+			}
+			div:nth-child(3)
+			{
+				background-color: lawngreen;
+				border: dotted;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>块级1</h1>
+		</div>
+		<div>
+			<h1>块级二</h1>
+			
+		</div>
+		<div>
+			<h2>
+				块级3
+			</h2>
+		</div>
+		<span>
+			内联
+		</span>
+	</body>
+</html>

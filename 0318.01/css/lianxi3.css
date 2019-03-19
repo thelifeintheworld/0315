@@ -1,0 +1,28 @@
+div {
+	width: 200px;
+	height: 200px;
+	margin:20px;
+	background-color: #00E676;
+	float:left;
+}
+div:hover
+{
+	border-radius: 100px;
+	
+	cursor: pointer;
+	transition:background-color 0.5s;
+}
+li{
+	boder:1px soild;
+	line-height: 200px;
+	color: white;
+	list-style: none;
+}
+div li{
+	text-align: center;
+}
+
+div:nth-child(2n)
+{
+	background-color: #FFFF00;
+}

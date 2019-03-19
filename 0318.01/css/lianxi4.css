@@ -1,0 +1,40 @@
+div
+{
+	margin-left: 46px;
+	width: 300px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: auto;
+	border:solid 1px;
+	border-radius: 20px;
+	background-color: white;
+	border-color: #29B6F6;
+
+}
+h2,span{
+	color:  #29B6F6;
+	margin-right: 5px;
+	text-align: center;
+	}
+	p{
+		line-height: 50%;
+	}
+img{
+	width: 100px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left: 5px;
+	float: left;
+	position:absolute;
+	left:0px;
+}
+.img1{
+	width: 100px;
+	height: 80px;
+	margin-top: -46px;
+	margin-left: 5px;
+	float: left;
+	position:absolute;
+	left:300px;
+	z-index: 1;
+}
