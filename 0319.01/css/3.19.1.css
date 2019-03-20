@@ -1,0 +1,64 @@
+/*
+ * #div1
+{
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(to left,rgb(0,255,0),rgb(200,0,0));
+	/background-image: radial-gradient(rgb(0,255,0),rgb(200,0,0));/
+	border-radius: 250px;
+	float: left;
+	margin:20px;
+	div-shadow:10px 20px 5px #2979FF;
+}*/
+/*#div2
+{
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(to left,rgb(0,255,0),rgb(200,0,0);
+	
+}*/
+#bd
+{
+	width: 1200px;
+	height: 500px;
+	background-color:#D500F9;
+	overflow: scroll;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sd
+{
+	width: 200px;
+	height: 200px;
+	background-color:#00E5FF;
+	float:left;
+	margin: 20px;
+	opacity: 0.3;
+	overflow: scroll;
+}
+.img1{
+	width: 100px;
+	height: 150px;
+	background: center;
+}
+body{
+	background-color:#d50000;
+}
+/*#nd
+{
+	border: 3px solid;
+}
+.nd{
+	width: 100px;
+	height: 200px;
+	
+}
+*/
+#cd{
+	position: inherit;
+	
+}
+.rd
+{
+	display: block;
+}
