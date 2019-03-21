@@ -1,16 +1,17 @@
-div {
+/*div {
 	width: 200px;
 	height: 200px;
 	margin:20px;
 	background-color: #00E676;
 	float:left;
+	transition:background-color 0.5s,border-radius 2s;
+	
 }
 div:hover
 {
 	border-radius: 100px;
-	
 	cursor: pointer;
-	transition:background-color 0.5s;
+	background-color: #00FFFF;
 }
 li{
 	boder:1px soild;
@@ -25,4 +26,19 @@ div li{
 div:nth-child(2n)
 {
 	background-color: #FFFF00;
+}
+:nth-child(11)*/
+div
+{
+	width: 500px;
+	height: 500px;
+	border: 1px solid;
+	background-color: #ADFF2F;
+	div:hover{background-color: #F44336;}
+}
+span{
+	text-shadow: 10px 10px 5px #FDD835;
+	text-align: left;
+	text-indent: 2em;
+	color:#ff1744 ;
 }
