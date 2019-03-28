@@ -1,0 +1,46 @@
+div{
+	border:1px solid #FF0000;
+}
+#top{
+	flex: 0.2;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#top1{
+	width: 97%;
+	flex: 0.4;
+}
+#top2{
+	width: 97%;
+	flex: 0.6;
+}
+#center{
+	flex:1;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#center1{
+	width: 97%;
+	flex: 0.6;
+}
+#center2{
+	width: 97%;
+	flex: 0.6;
+}
+#center3{
+	width: 97%;
+	flex: 0.4;
+}
+#bottom{
+	flex:0.3;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
