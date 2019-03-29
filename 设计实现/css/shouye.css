@@ -6,6 +6,12 @@
 	flex-direction: column;
 	position: relative;
 }
+h2 span{
+	color: #00FFFF;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: 800;
+}
 #biaottop{
 	width: 99%;
 	flex: 0.6;
@@ -70,15 +76,21 @@
 }
 #textt{display: flex;flex: 0.2;flex-wrap:wrap;}
 #textc{flex: 0.6;display: flex;flex-wrap:wrap;}
-#textc img:hover
+#text img:hover
 {
 	transform: scale(1.2);
-	
+	z-index: 1;
 }
 #textb{flex: 0.2;display: flex;flex-wrap:wrap;}
 #bottom{
 	width: 100%;
 	height: 50px;
+}
+#bottom span{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color:#7FFFD4;
+	
 }
 @-webkit-keyframes shanshuo{
 	0%{
