@@ -23,16 +23,16 @@
 	align-items: center;
 	justify-content: space-around;
 }
-ul li{
+ #xinhleft ul li{
 	list-style: none;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
 	background-color: #FFFFFF;
 	margin-left: 3px;
-	
+	margin-top: 10px;
 }
-ul{
+#xinhleft ul{
 	display: inline-flex;
 }
 span{

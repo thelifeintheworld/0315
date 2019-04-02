@@ -16,6 +16,7 @@ h2 span{
 	width: 99%;
 	flex: 0.6;
 	display: flex;
+	margin-top: 30px;
 }
 .bt{
 	height: 100%;
@@ -43,6 +44,7 @@ h2 span{
 #biaotcenter{
 	width: 99%;
 	flex: 1;
+	margin-top: 30px;
 }
 .carousel-inner img{
 	width: 375px;
@@ -53,6 +55,7 @@ h2 span{
 	width: 99%;
 	flex: 0.4;
 	flex-direction: row;
+	margin-top: 40px;
 }
 .bb{
 	height: 100%;
@@ -67,6 +70,7 @@ h2 span{
 	display: flex;
 	flex-direction: column;
 	flex:1;
+	margin-top: 140px;
 }
 .img2{
 	width: 120px;
@@ -115,3 +119,33 @@ h2 span{
 	animation: shanshuo 5s ease-in-out infinite;
 	transition: all 1s;
 }
+#daohang{
+	flex:0.1;
+	width:100% ;
+	background-color: #673AB7;
+	z-index: 1;
+	display: flex;
+
+}
+.daohang{
+				height: 100%;
+				width:25%;
+				position: relative;
+				display: flex;
+				text-align: center;
+				display: block;
+				align-items: center;
+				justify-content: center;
+			}
+			.daohang img
+			{
+				width: 60%;
+				height: 64%;
+				position: relative;
+				
+			}
+			.daohang span{
+				text-align: center;
+				display: block;
+				margin-bottom: 16px;
+			}

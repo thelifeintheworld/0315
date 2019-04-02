@@ -1,0 +1,96 @@
+div{
+	border:2px solid white;
+}
+#biaot{
+	width: 100%;
+	flex: 0.1;
+	display: flex;
+	position: relative;
+}
+#btl{
+	flex: 0.3;
+}
+#btc{
+	flex: 0.5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#btr{
+	flex: 0.2;
+}
+#biaot img{
+	width: 100%;
+	height: 100%;
+}
+#btc span{
+	font-size: 24px;
+	color: #AB47BC;
+	font-family: "微软雅黑";
+}
+#text{
+	overflow: scroll;
+	display: flex;
+	flex: 1;
+	width: 100%;
+}
+#textl{
+	flex:0.4;
+	height: 100%;
+}
+#textl ul li{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+li {
+	font-size: 24px;
+	color: #2196F3;
+	font-family: "微软雅黑";
+}
+li:hover
+{
+	background-color: #F06292;
+	color: white;
+	cursor: pointer;
+	transition:background-color 0.5s;
+}
+a:focus li
+{
+	color :yellow;
+	transition: color border-left-color 0.5s;
+}
+#textr{
+	flex:1;
+}
+#daohang{
+	flex:0.1;
+	width:100% ;
+	background-color: #673AB7;
+	z-index: 1;
+	display: flex;
+
+}
+.daohang{
+				height: 100%;
+				width:25%;
+				position: relative;
+				display: flex;
+				text-align: center;
+				display: block;
+				align-items: center;
+				justify-content: center;
+			}
+			.daohang img
+			{
+				width: 60%;
+				height: 64%;
+				position: relative;
+				
+			}
+			.daohang span{
+				text-align: center;
+				display: block;
+				margin-bottom: 16px;
+			}
