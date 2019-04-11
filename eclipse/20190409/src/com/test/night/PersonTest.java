@@ -2,11 +2,13 @@ package com.test.night;
 
 public class PersonTest {
 	public static void main(String[] args) {
-		PersonCreate p1 = new PersonCreate();
-		p1 = PersonCreate.PersonCreate("zhangsan",33,1.73);
-		PersonCreate p2 = new PersonCreate();
-		p1 = PersonCreate.PersonCreate("lishi", 44, 1.74);
-		p1.Person.sayHello(p1);
-		p2.Person.sayHello(p2);
+		Person p1 = new Person();
+		p1 = PersonCreate.Person("zhangsan",33,1.73);
+		Person p2 = new Person();
+		p2 = PersonCreate.Person("lishi", 44, 1.74);
+		p1.sayHello(p1);
+		p2.sayHello(p2);
 	}
+
+	
 }
